@@ -18,7 +18,7 @@ select * from department where department_id in (2, 4, 5, 3, 1);
 	select duration, created_date, count(exam_id) as exam_cout
 	from exam
 	group by duration, created_date having count(exam_id) > 1
-	order by duration, created_date
+	order by duration, created_date;
     
 -- Cập nhật dữ liệu
 UPDATE department
